@@ -1,0 +1,10 @@
+language: "en-US"
+reviews:
+  profile: "assertive"
+  custom_instructions: |
+    - For .cs files (C#/.NET): Enforce PascalCase naming, check for null references, and ensure async/await best practices.
+    - For .java files (Java): Enforce Java Naming Conventions, check for resource leaks, and require Javadoc comments.
+    - Flag hard-coded secrets and SQL injection risks in all files.
+exclude:
+  - "*.md"
+  - "*.txt"
